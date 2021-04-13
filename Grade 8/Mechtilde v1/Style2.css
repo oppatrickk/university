@@ -1,0 +1,149 @@
+body{
+	background-image:url("background.jpg");
+    background-size: 100%;
+    background-repeat:no-repeat;
+    background-attachment: fixed; 
+    margin: auto;
+	text-align:center;
+}
+#tab1{
+	height:125vh;
+	width:14%;
+    float:left;
+	background-color:rgba(0,0,0,0.5);
+	color:white;
+	font-size:30px;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	position:fixed;
+}
+#tab2{
+	height:4vh;
+    float:center;
+	width:auto;
+}
+#tab3{
+	float:center;
+	height:15vh;
+    width:auto;
+	background-color:rgba(0,0,0,0.4);
+	transition:0.5s;
+}
+#tab4{
+    height:10vh;
+    float:center;
+    width:auto;
+	margin-top:15%;
+	background-color:rgba(0,0,0,0.4);
+	transition:0.5s;
+	
+}
+#tab5{
+    height:10vh;
+    float:center;
+    width:auto;
+	margin-top:5%;
+	background-color:rgba(0,0,0,0.4);
+	transition:0.5s;
+}
+#tab6{
+    height:10vh;
+    float:center;
+    width:auto;
+	margin-top:5%;
+	background-color:rgba(0,0,0,0.4);
+	transition:0.5s;
+}
+#tab7{
+    height:10vh;
+    float:center;
+    width:auto;
+	margin-top:5%;
+	background-color:rgba(0,0,0,0.4);
+	transition:0.5s;
+}
+#tab8{
+	height:10vh;
+    float:center;
+    width:auto;
+	margin-top:10%;
+}
+#tab9{
+	height:10vh;
+    float:center;
+    width:auto;
+	margin-top:40%;
+	opacity:0.7;
+}
+#tab3:hover{background-color:rgba(255,255,255,0.5);}
+#tab4:hover{background-color:rgba(255,255,255,0.4);}
+#tab5:hover{background-color:rgba(255,255,255,0.3);}
+#tab6:hover{background-color:rgba(255,255,255,0.2);}
+#tab7:hover{background-color:rgba(255,255,255,0.1);}
+#logo1{
+	height:16vh;
+	width:90%;
+}
+#logo2{
+	height:20vh;
+	width:50%;
+}
+#logo3{
+	height:7vh;
+	width:100%;
+}
+#logo4{
+	height:5vh;
+	width:60%;
+}
+#logo5{
+	height:4.5vh;
+	width:20%;
+}
+#img1{
+	height:10vh;
+	width:5%;
+}
+#tab10{
+float:center;
+margin:auto;
+height:70vh;
+width:81%;
+margin-left:14%;
+}
+#header{
+text-align:justify;
+width:106%;
+height:14.8vh; 
+float:left;
+margin-top:2%;
+background-color: rgba(0,0,0,0.7);
+border:1px dashed;
+border-color:black;
+font-size:600%;
+color:#fff2d7;
+font-family:Palatino Linotype;
+text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+position:fixed;
+}
+#page{
+text-align:justify;
+float:left;
+width:101%;
+height:90vh; 
+border:1px solid;
+border-color:black;
+margin-top:14.2%;
+margin-left:2.5%;
+background-color:rgba(255,255,255,0.1);
+}
+.link1:active{
+	color:red;
+}
+.link1:link{
+	color:white;
+	text-decoration:none;
+}
+.link1:visited{
+	color:white;
+	text-decoration:none;
+}
