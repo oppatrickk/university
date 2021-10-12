@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <meta name = "viewport" content = "width=device-width">
+        <title>Activity 3 - Form</title>
+    </head>
+    <body>
+        <center>
+        <form>
+            <table border = "1" frame = "box" rules="none" cellpadding = "5">
+                <thead>
+                    <tr> <!-- Header -->
+                        <th colspan = "2"> <h2> Novell Services Login </h2> </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr> <!-- Username -->
+                        <td> Username: </td>
+                        <td> <input type = "textbox" name = "username"> </td>
+                    </tr>
+                    <tr> <!-- Password -->
+                        <td> Password: </td>
+                        <td> <input type = "password" name = "username"> </td>
+                    </tr>
+                    <tr> <!-- City of Employment -->
+                        <td> City of <br> Employment: </td>
+                        <td> <input type = "textbox" name = "username"> </td>
+                    </tr>
+                    <tr> <!-- Web Server -->
+                        <td> Web server: </td>
+                        <td>
+                            <select name="server">
+                                <option value="default"> - CHOOSE A SERVER - </option>
+                                <option value="server1"> Server # 1 </option>
+                                <option value="server2"> Server # 2 </option>
+                                <option value="server3"> Server # 3 </option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr> <!-- Please Specify your role -->
+                        <td> Please specify <br> your role: </td>
+                        <td>
+                            <input type="radio" name="role">
+                                <label for="role"> Admin </label> <br>
+                            <input type="radio" name="role">
+                                <label for="role"> Engineer </label> <br>
+                            <input type="radio" name="role">
+                                <label for="role"> Manager </label> <br>
+                            <input type="radio" name="role">
+                                <label for="role"> Guest </label> 
+                        </td>
+                    </tr>
+                    <tr> <!-- Single Sign-on to the following -->
+                        <td> Single Sign-on <br> to the following: </td>
+                        <td>
+                            <input type="checkbox" name="mail">
+                                <label for="mail"> Mail </label> <br>
+                            <input type="checkbox" name="payroll">
+                                <label for="payroll"> Payroll </label>  <br>
+                            <input type="checkbox" name="self-service">
+                                <label for="self-service"> Self-Service </label> 
+                        </td>
+                    </tr>
+                    <tr> <!-- Login and Reset -->
+                        <td colspan = "2">
+                            <center>
+                            <input type = "submit" value = "Login">
+                            <input type = "reset" value = "Reset">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+    </body>
+</html>

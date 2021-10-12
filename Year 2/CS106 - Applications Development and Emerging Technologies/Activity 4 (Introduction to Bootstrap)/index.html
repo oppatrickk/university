@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Home | Activity 4</title>
+  <!-- Title Icon-->
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
+
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- External CSS-->
+  <link rel="stylesheet" href="style1.css">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <!-- Header -->
+  <div class="container-fluid" id="header">
+    <div class="row" id="header1">
+      <div class="col" id="header1_column1">
+        <h1>CS106 - Application Development and Emerging Technologies</h1>
+      </div>
+      <div class="col-2" id="header1_column2">
+        <h4 class="text-end"> Online Project </h4>
+        <p class="text-end fs-5"> Version 1.0 CS106Sep</p>
+        <p class="text-end fs-6" style="color: yellow"> Today is
+          <?php
+echo "The time is " . date("h:i:sa");
+?>
+        
+        </p>
+      </div>
+    </div>
+    <div class="row" id="header2"></div>
+    <div class="row" id="header3"></div>
+  </div>  
+
+  <!-- Content -->
+  <div class="container-fluid" id="content_title">
+    <h1> What is Flutter?</h1>
+    <div id="content_body">
+      <div class="row" id="content_row1">
+        <div class="col ms-2 fs-5">
+          <li>Flutter is Google's UI toolkit for building beautiful, natively compiled applications for mobile, web, desktop, and embedded devices from a single codebase.</li>
+          <li>Delight your users with Flutter's built-in beautiful Material Design and Cupertino (iOS-flavor) widgets, rich motion APIs, smooth natural scrolling, and platform awareness.</li>
+          <li>Flutter’s widgets incorporate all critical platform differences such as scrolling, navigation, icons and fonts to provide full native performance on both iOS and Android.</li>
+        </div>
+      </div>  
+
+      <div class="row" id="content_row2">
+        <div class="col" id="content_row2_column1">
+          <div id="vertical_line">
+            <h2>What is Hot Reload?</h2>
+            <p class="fs-5">
+              Flutter’s hot reload feature helps you quickly and easily experiment, build UIs, add features, and fix bugs. 
+              Hot reload works by injecting updated source code files into the running <a href="https://dart.dev/overview#platform"> Dart Virtual Machine (VM)</a>.
+              After the VM updates classes with the new versions of fields and functions, the Flutter framework automatically rebuilds the widget tree, 
+              allowing you to quickly view the effects of your changes.
+            </p>
+          </div>
+          <div class="col-12" id="button1">
+            <button type="button" class="btn btn-outline-success float-end fs-5">Next Lesson</button>
+          </div>
+          
+          <p>
+            8 Sep 2021 — Flutter 2.5 is released to stable! For details, see 
+            <a href="https://medium.com/flutter/whats-new-in-flutter-2-5-6f080c3f3dc"> What's new in Flutter 2.5</a>
+          </p>
+          <p>
+            <h2>Online Tutorials</h2>
+            <div class="col ms-3 fs-5">
+              <li>Documentation - <a href="https://flutter.dev/docs">https://flutter.dev/docs</a></li>
+              <li>Codelabs - <a href="https://flutter.dev/docs/codelabs"> https://flutter.dev/docs/codelabs </a></li>
+              <li>Medium - <a href="https://medium.com/flutter"> https://medium.com/flutter</a></li>
+              <li>YouTube - <a href="https://www.youtube.com/flutterdev"> https://www.youtube.com/flutterdev </a></li>
+            </div>
+          </p>
+        </div>
+
+        <div class="col fs-5" id="content_row2_column2">
+          <p><b>Scaffold Class.</b> Implements the basic material design visual layout structure. This class provides APIs for showing drawers and bottom sheets.</p>
+          <p style="color: blue">The Scaffold is designed to be a top level container for a MaterialApp. This means that adding a Scaffold to each route on a Material app will provide the app with Material's basic visual layout structure.</p>
+          <hr></hr>
+          <p>The core of Flutter’s layout mechanism is widgets. In Flutter, almost everything is a widget—even layout models are widgets. The images, icons, and text that you see in a Flutter app are all widgets. But things you don’t see are also widgets, such as the rows, columns, and grids that arrange, constrain, and align the visible widgets.</p>
+          <p><b>Stateful widgets </b> maintain state that might change during the lifetime of the widget.</p>
+          <p><b>Stateless widgets</b> are immutable, meaning that their properties can't change—all values are final.</p>
+        </div>
+      </div>  
+    </div>
+  </div>  
+
+  <!-- Footer -->
+  <div class="footer text-center py-3" id="footer">
+    CS106 Project v2021
+  </div>
+
+  <!-- Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

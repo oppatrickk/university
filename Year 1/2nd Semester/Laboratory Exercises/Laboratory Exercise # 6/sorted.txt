@@ -1,0 +1,12 @@
+STRING				ADDRESS				LENGTH
+
+int     			0x7fffbd309b70		3
+char    			0x7fffbd309b78		4
+ARRAY   			0x7fffbd309b80		5
+String  			0x7fffbd309b88		6
+Science 			0x7fffbd309b90		7
+student 			0x7fffbd309b98		7
+Variable			0x7fffbd309ba0		8
+functiON			0x7fffbd309ba8		8
+Computer			0x7fffbd309bb0		8
+Programming			0x7fffbd309bb8		11
